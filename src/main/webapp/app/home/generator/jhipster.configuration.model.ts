@@ -26,13 +26,12 @@ export class JHipsterConfigurationModel {
   public serverPort = 8080;
   public serviceDiscoveryType: any = false;
   public authenticationType = 'jwt';
-  public uaaBaseName = '../uaa';
   public cacheProvider = 'ehcache';
   public enableHibernateCache = true;
   public websocket: any = false;
   public databaseType = 'sql';
   public devDatabaseType = 'h2Disk';
-  public prodDatabaseType = 'mysql';
+  public prodDatabaseType = 'postgresql';
   public searchEngine: any = false;
   public enableSwaggerCodegen: any = false;
   public messageBroker: any = false;
@@ -45,4 +44,5 @@ export class JHipsterConfigurationModel {
   public languages = ['en'];
   public clientFramework = 'angularX';
   public jhiPrefix = 'jhi';
+  public withAdminUi = true;
 }

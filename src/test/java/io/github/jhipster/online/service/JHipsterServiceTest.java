@@ -105,8 +105,7 @@ class JHipsterServiceTest {
                 "--skip" + "-checks",
                 "--skip-install",
                 "--skip-cache",
-                "--skip-git",
-                "--prettier-java"
+                "--skip-git"
             );
 
         jHipsterServiceSpy.generateApplication(generationId, tempDir.toFile());
@@ -121,8 +120,7 @@ class JHipsterServiceTest {
                 "--skip" + "-checks",
                 "--skip-install",
                 "--skip-cache",
-                "--skip-git",
-                "--prettier-java"
+                "--skip-git"
             );
     }
 
